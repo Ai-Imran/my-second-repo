@@ -1,0 +1,127 @@
+*{
+    
+    font-family: 'Open Sans', sans-serif;
+   margin: 0;
+}
+/* header and navigatin styles */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin: 50px 200px;
+}
+.text-primary{
+    color:#FD6E0A;
+   
+    
+}
+.btn-primary{
+    width: 55px;
+    height: 30px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    border: 0;
+    padding: 16px -20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+  
+}
+nav  li{
+   list-style-type: none;
+   margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+   
+   
+    
+
+}
+.banner-title{
+    font-weight: 700;
+   font-size: 65px; 
+   margin-bottom: 20px;
+
+}
+.sub{
+   font-weight: 600;
+   font-size: 45px; 
+   margin-bottom: 20px;
+
+}
+.descripition{
+    color:#1103df;
+}
+.thanks{
+    color:  #FC427B;
+}
+.header{
+    background: linear-gradient(yellow,green);
+}
+.pik{
+    margin-bottom: 0;
+    opacity: 0.9;
+  
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* sectrion */
+.about{
+margin-top: 130px;
+
+background: #ddd;
+ border-radius: 20px;
+ padding: 130px 150px;
+ margin-bottom: 30px;
+
+}
+.descripition{
+
+}
+.sec-desc{
+ text-align: center;
+ color: rgb(129, 129, 112);
+ font-size: 20px;
+ margin-bottom: 30px;
+ font-weight: 400;
+    
+}
+.me{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FC427B;
+    font-size: 30px;
+    font-weight: 600;
+   font-size: 45px; 
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.abinfo .info-title{
+    color: rgb(92, 145, 99);
+
+}
+.info-descp{
+    font-weight: 20px;
+    color: darkkhaki;
+}
