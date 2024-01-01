@@ -3,6 +3,12 @@
     font-family: 'Open Sans', sans-serif;
    margin: 0;
 }
+.section{
+    margin-top: 130px;
+
+    text-align: center;
+    margin-bottom: 50px;
+}
 /* header and navigatin styles */
 .nav-title{
     font-weight: 800;
@@ -86,7 +92,7 @@ main{
 }
 /* sectrion */
 .about{
-margin-top: 130px;
+
 
 background: #ddd;
  border-radius: 20px;
@@ -125,3 +131,46 @@ background: #ddd;
     font-weight: 20px;
     color: darkkhaki;
 }
+
+/* what i do */
+.what-i-do{
+    margin-top: 130px;
+    
+}
+.section-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.skill{
+    background-color: #a288c4;
+    box-shadow: 0px 6px 50px rgba(143, 96, 96, 0.904);
+    border-radius: 6px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    
+    
+.skill-title{
+    font-weight: 700;
+    font-size: 20PX;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skill-descprition{
+    color: rgb(39, 59, 66);
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.skill img{
+   margin-top: 20px;
+   margin-left: 90px;
+}
+
+/* resume styles */
+
